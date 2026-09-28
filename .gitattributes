@@ -1,0 +1,25 @@
+# Serve all files as-is, no text conversion (mirror fidelity)
+* -text
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.mp3 binary
+*.mp4 binary
+*.webm binary
+*.pdf binary
+
+# Keep HTML/CSS/JS out of diff stats noise
+*.html -diff
+*.css  -diff
+*.js   -diff
